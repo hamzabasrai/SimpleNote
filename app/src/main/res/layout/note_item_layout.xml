@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title_textview"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="Title"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/note_textview"
+        android:layout_below="@id/title_textview"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:maxLength="140"
+        android:maxLines="2"
+        android:paddingBottom="8dp"
+        android:text="Note"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/dateStamp"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="dd/mm/yyyy"/>
+
+</RelativeLayout>
